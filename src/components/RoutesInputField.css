@@ -1,0 +1,18 @@
+.route-input-field {
+  width: 100%;
+  padding: 16px;
+  /*color: #EDF0F3;*/
+}
+
+.route-input {
+  background-color: #484F57;
+  color: #EDF0F3;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #EDF0F3;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,55 @@
+.control-buttons {
+ 
+  margin: 0 16px;
+  border-radius: 3px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+}
+
+.control-button-inner {
+  background-color: #EDF0F3;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.control-button {
+ 
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+}
+
+.control-button-inner:hover {
+  background-color: #ffdb4d;
+}
+
+.control-button-masstransit {
+  background-image: url('../assets/bus.png');
+}
+
+.control-button-auto {
+  width: 26px;
+  height: 26px;
+  background-image: url('../assets/auto2.png');
+
+}
+
+.control-button-pedestrian {
+  background-image: url('../assets/pedestrian.png');
+}
+
+.control-button-bicycle {
+  background-image: url('../assets/bicycle2.png');
+}
+
+.control-buttons .active {
+  background-color: #ffdb4d;
+}
